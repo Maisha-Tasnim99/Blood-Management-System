@@ -7,13 +7,13 @@ import {getFirestore} from "firebase/firestore";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCNncN64IKi4Yy5LFYXdtXaWLDcx7JrBzA",
-  authDomain: "blood-management-system-58df5.firebaseapp.com",
-  projectId: "blood-management-system-58df5",
-  storageBucket: "blood-management-system-58df5.appspot.com",
-  messagingSenderId: "236160097880",
-  appId: "1:236160097880:web:65f0e4dc9b07c58e80f42d",
-  measurementId: "G-6EY6WQEBXK"
+  apiKey: "AIzaSyDmDmK91JKDvl5As98EHrNGJZ1zYjvHiok",
+  authDomain: "blood-management-system-6d37f.firebaseapp.com",
+  projectId: "blood-management-system-6d37f",
+  storageBucket: "blood-management-system-6d37f.appspot.com",
+  messagingSenderId: "317177341371",
+  appId: "1:317177341371:web:b31f3f5c98f56af702509e",
+  measurementId: "G-TDN9KFQLH9"
 };
 
 
