@@ -1,0 +1,16 @@
+@import './label-tag.css';
+@import './input-tag.css';
+@import './select-tag.css';
+@import './textarea-tag.css';
+
+@import './radio-button.css';
+@import './checkbox.css';
+
+
+
+
+/* The following code makes the date and time picker icon white in the dark mode. (In the Chromium Based Browser) */
+
+.dark ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

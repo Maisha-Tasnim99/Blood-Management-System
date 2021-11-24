@@ -1,0 +1,38 @@
+@layer utilities {
+
+  /* The container-radio */
+  .container-radio {
+    @apply
+    block relative _pl-36px _mb-12px cursor-pointer -h5
+  }
+
+  /* Hide the browser's default radio button */
+  .container-radio input {
+    @apply
+    absolute opacity-0 cursor-pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark-radio {
+
+    @apply
+    absolute top-0 left-0 h-24px w-24px rounded-circle bg-b-t1l1a1;
+    
+  }
+
+  /* On mouse-over, add a  background color */
+  .container-radio:hover input ~ .checkmark-radio {
+    @apply
+      bg-b-t1l1a1;
+    }
+
+  /* When the radio button is checked, add a  background */
+  .container-radio input:checked ~ .checkmark-radio {
+    @apply
+    bg-b-t1l1a4;
+  }
+
+    
+    
+  
+  }

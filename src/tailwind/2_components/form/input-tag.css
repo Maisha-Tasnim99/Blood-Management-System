@@ -1,0 +1,11 @@
+@layer utilities {
+
+
+  .-input-tag{
+      @apply 
+      _py-4px _px-12px w-full  rounded-1 bg-s-t1a4 -shadow-xs border border-gray-l1a6 focus:outline-none  focus:ring-1 focus:ring-b-t1l1a4;
+  }
+
+
+
+}

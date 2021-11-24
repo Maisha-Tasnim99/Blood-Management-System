@@ -1,0 +1,7 @@
+@layer utilities {
+
+   .-label-tag{
+       @apply -h5 text-l1-a2 ;
+   }
+
+}

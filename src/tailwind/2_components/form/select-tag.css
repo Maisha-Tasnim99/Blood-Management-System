@@ -1,0 +1,13 @@
+@layer utilities {
+
+    .-select-tag{
+        @apply
+        appearance-none _py-8px _pl-12px _pr-40px rounded-1 border border-gray-l1a6 focus:outline-none focus:ring-1 focus:ring-b-t1l1a1 bg-s-t1a4 -shadow-xs;
+    }
+
+    .select-tag-icon{
+        @apply
+        absolute right-0 top-0  w-40px h-full flex items-center justify-center  pointer-events-none;
+    }
+
+}
